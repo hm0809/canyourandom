@@ -1,8 +1,3 @@
-// randomness-analysis.js
-
-// Setup event listener for analyze button
-// Ensure metric-key listeners are delegated properly for dynamic content
-
 document.getElementById('analyze-btn').addEventListener('click', function () {
     const input = document.getElementById('number-input').value.replace(/[^0-9]/g, '');
     if (input.length !== 125) {
